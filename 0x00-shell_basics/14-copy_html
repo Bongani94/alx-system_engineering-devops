@@ -1,2 +1,2 @@
 #!/bin/bash
-find myDir -name "*.html"
+cp myDir/**/*.html ~/otherDir/
