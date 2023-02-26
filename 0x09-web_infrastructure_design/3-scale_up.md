@@ -2,7 +2,7 @@
 
 ![Image of a scaled up web infrastructure](3-scale_up.jpg)
 
-[Visit Board](https://miro.com/app/board/uXjVOfMRh90=/)
+[Visit Board](https://docs.google.com/document/d/1lDlpoDMQy8sHSK4mHcZvKkxzNzWJ_rQdze6oKgXLsLA/edit?usp=sharing)
 
 ## Description
 

@@ -2,7 +2,7 @@
 
 ![Image of a secured and monitored infrastructure](2-secured_and_monitored_web_infrastructure.jpg)
 
-[Visit Board](https://miro.com/app/board/uXjVOfNFwbY=/)
+[Visit Board](https://docs.google.com/document/d/14sC4WDASd2db0Ejq9huRDGl8kaeVhybxFIny2iUUACM/edit?usp=sharing)
 
 ## Description
 
