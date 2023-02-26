@@ -2,7 +2,7 @@
 
 ![Image of a simple web stack](0-simple_web_stack.jpg)
 
-[Visit Board](https://miro.com/app/board/uXjVOfJwct0=/)
+[Visit Board](https://docs.google.com/document/d/1QLImDzDO5L3vOJyCUgfpPJXo4GmXY7sHwYMdt6JMmiw/edit?usp=sharing)
 
 ## Description
 
