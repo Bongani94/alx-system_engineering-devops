@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
-# Connects to server 18.234.249.129 with key in ~/.ssh/school
+# Allow me to connect to my server using IP Address
 
-ssh -i ~/.ssh/school ubuntu@18.234.249.129
+ssh -i ~/.ssh/id_rsa ubuntu@52.201.186.13
