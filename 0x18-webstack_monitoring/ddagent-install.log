@@ -1,5 +1,5 @@
 [34m
-* Datadog Agent 7 install script v1.15.0
+* Datadog Agent 7 install script v1.16.0
 [0m
 [34m
 * Installing apt-transport-https, curl and gnupg
@@ -7,12 +7,17 @@
 Hit:1 http://us-east-1.ec2.archive.ubuntu.com/ubuntu focal InRelease
 Get:2 http://us-east-1.ec2.archive.ubuntu.com/ubuntu focal-updates InRelease [114 kB]
 Get:3 http://us-east-1.ec2.archive.ubuntu.com/ubuntu focal-backports InRelease [108 kB]
-Ign:4 https://apt.datadoghq.com stable InRelease
-Hit:5 http://repo.mysql.com/apt/ubuntu bionic InRelease
-Hit:6 https://apt.datadoghq.com stable Release
+Get:4 http://security.ubuntu.com/ubuntu focal-security InRelease [114 kB]
+Ign:5 https://apt.datadoghq.com stable InRelease
+Hit:6 http://repo.mysql.com/apt/ubuntu bionic InRelease
 Hit:7 http://ppa.launchpad.net/vbernat/haproxy-2.4/ubuntu focal InRelease
-Get:8 http://security.ubuntu.com/ubuntu focal-security InRelease [114 kB]
-Fetched 336 kB in 1s (315 kB/s)
+Hit:8 https://apt.datadoghq.com stable Release
+Get:9 http://us-east-1.ec2.archive.ubuntu.com/ubuntu focal-updates/main amd64 Packages [2,535 kB]
+Get:10 http://us-east-1.ec2.archive.ubuntu.com/ubuntu focal-updates/universe amd64 Packages [1,062 kB]
+Get:11 http://security.ubuntu.com/ubuntu focal-security/main amd64 Packages [2,156 kB]
+Get:12 http://security.ubuntu.com/ubuntu focal-security/main Translation-en [348 kB]
+Get:13 http://security.ubuntu.com/ubuntu focal-security/universe amd64 Packages [835 kB]
+Fetched 7,272 kB in 3s (2,693 kB/s)
 Reading package lists...
 Reading package lists...
 Building dependency tree...
@@ -29,19 +34,19 @@ Use 'sudo apt autoremove' to remove them.
 [0m
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  6226  100  6226    0     0   108k      0 --:--:-- --:--:-- --:--:--  108k
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  6226  100  6226    0     0   110k      0 --:--:-- --:--:-- --:--:--  110k
 gpg: key 32637D44F14F620E: "Datadog, Inc. Master key (2020-09-08) <package+masterkey@datadoghq.com>" not changed
 gpg: Total number processed: 1
 gpg:              unchanged: 1
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  6226  100  6226    0     0   116k      0 --:--:-- --:--:-- --:--:--  116k
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  6226  100  6226    0     0   289k      0 --:--:-- --:--:-- --:--:--  289k
 gpg: key 32637D44F14F620E: "Datadog, Inc. Master key (2020-09-08) <package+masterkey@datadoghq.com>" not changed
 gpg: Total number processed: 1
 gpg:              unchanged: 1
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  9001  100  9001    0     0   382k      0 --:--:-- --:--:-- --:--:--  382k
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  9001  100  9001    0     0   418k      0 --:--:-- --:--:-- --:--:--  418k
 gpg: key D3A80E30382E94DE: "Datadog, Inc <package@datadoghq.com>" not changed
 gpg: Total number processed: 1
 gpg:              unchanged: 1
