@@ -34,5 +34,3 @@ The issue was connected with a wrong file name being referred to in the wp-setti
 
 All servers and sites should have error logging turned on to easily identify errors if anything goes wrong.
 All servers and sites should be tested locally before deploying on a multi-server setup; this will result in correcting errors before going live resulting in less fixing time if the site goes down.
-
-https://wac-cdn.atlassian.com/dam/jcr:77b7d90d-6b76-47f2-bc2a-f547f8a3eacb/IMMKT-153-illustration-for-postmortem-page.png?cdnVersion=1010
