@@ -1,29 +1,22 @@
 server {
-        listen 80;
-        listen [::]:80;
-        add_header X-Served-By $HOSTNAME;
+    listen 80;
+    listen [::]:80 default_server;
+    root   /var/www/html;
+    index index.html index.htm index.nginx-debian.html;
+    location /redirect_me {
+        return 301 https://www.youtube.com/watch?v=QH2-TGUlwu4;
+    }
 
-        server_name 10.247.17.88;
+    location = /airbnb-onepage/ {
+        proxy_pass http://0.0.0.0:5000/airbnb-onepage/;
+    }
 
-        root /var/www/school;
-        index index.html;
-
-        # Serve /airbnb-onepage/ route from AirBnB_clone_v2
-        location = /airbnb-onepage/ {
-                proxy_pass http://127.0.0.1:5000/airbnb-onepage/;
-        }
-
-        location /redirect_me {
-            return 301 https://youtube.com;
-        }
-
-        location /hbnb_static/ {
-            alias /data/web_static/current/;
-            index index.html 1-index.html;
-        }
-
-        error_page 404 /404.html;
-        location = /404.html {
-            root /var/www/school/errors/;
-        }
+    error_page 404 /404.html;
+    location = /404.html {
+        internal;
+    }
+    add_header X-Served-By gc-110209-web-01-100.26.56.30;
+    location /hbnb_static {
+        alias /data/web_static/current;
+    }
 }
